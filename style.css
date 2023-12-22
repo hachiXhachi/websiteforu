@@ -386,6 +386,16 @@ body {
   outline-color: #333;
   outline-style: dotted;
 }
+#playButton::before {
+  content: "🔊"; /* Unicode speaker icon for unmute */
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#playButton.muted::before {
+  content: "🔇"; /* Unicode muted speaker icon for mute */
+}
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
