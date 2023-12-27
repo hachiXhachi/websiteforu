@@ -357,6 +357,7 @@ body {
   left: 0;
   top: 0;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+  justify-content:center;
 }
 
 /* p {
